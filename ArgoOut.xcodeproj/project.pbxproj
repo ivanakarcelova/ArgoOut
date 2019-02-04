@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4CB5CF2208A8D000F91DDD /* ScheduleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CB5CE2208A8D000F91DDD /* ScheduleHandler.swift */; };
 		B0891A4921B2004D004116D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0891A4821B2004D004116D8 /* AppDelegate.swift */; };
 		B0891A4B21B2004D004116D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0891A4A21B2004D004116D8 /* ViewController.swift */; };
 		B0891A4E21B2004D004116D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0891A4C21B2004D004116D8 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F4CB5CE2208A8D000F91DDD /* ScheduleHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleHandler.swift; sourceTree = "<group>"; };
 		B0891A4521B2004D004116D8 /* ArgoOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArgoOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0891A4821B2004D004116D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0891A4A21B2004D004116D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F4CB5D02208A8DD00F91DDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F4CB5CE2208A8D000F91DDD /* ScheduleHandler.swift */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		1F4CB5D12208A8E800F91DDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0891A4F21B20051004116D8 /* Assets.xcassets */,
+				B0891A5121B20051004116D8 /* LaunchScreen.storyboard */,
+				B0891A4C21B2004D004116D8 /* Main.storyboard */,
+			);
+			name = View;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		1F4CB5D22208A8EF00F91DDD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0891A4A21B2004D004116D8 /* ViewController.swift */,
+			);
+			name = Controller;
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
 		B0891A3C21B2004D004116D8 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +85,10 @@
 		B0891A4721B2004D004116D8 /* ArgoOut */ = {
 			isa = PBXGroup;
 			children = (
+				1F4CB5D22208A8EF00F91DDD /* Controller */,
+				1F4CB5D12208A8E800F91DDD /* View */,
+				1F4CB5D02208A8DD00F91DDD /* Model */,
 				B0891A4821B2004D004116D8 /* AppDelegate.swift */,
-				B0891A4A21B2004D004116D8 /* ViewController.swift */,
-				B0891A4C21B2004D004116D8 /* Main.storyboard */,
-				B0891A4F21B20051004116D8 /* Assets.xcassets */,
-				B0891A5121B20051004116D8 /* LaunchScreen.storyboard */,
 				B0891A5421B20051004116D8 /* Info.plist */,
 			);
 			path = ArgoOut;
@@ -135,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4CB5CF2208A8D000F91DDD /* ScheduleHandler.swift in Sources */,
 				B0891A4B21B2004D004116D8 /* ViewController.swift in Sources */,
 				B0891A4921B2004D004116D8 /* AppDelegate.swift in Sources */,
 			);
