@@ -9,12 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+         DatabaseFunctions.sharedInstance.setCurrentDay(completion: { (success) -> Void in
+            if success {
+                print(ScheduleHandler.sharedInstance.currentDay, " is the current day")
+            }
+        })
     }
-
-
 }
 

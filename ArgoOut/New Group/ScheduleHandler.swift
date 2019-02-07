@@ -10,6 +10,13 @@ import Foundation
 
 class ScheduleHandler
 {
+    var currentDay = Int()
+    
+    static let dataSharedInstance = ScheduleHandler()
+    static var sharedInstance: ScheduleHandler {
+        return self.dataSharedInstance
+    }
+    
     // MARK: - Declarations
     let date = Date()
     let dateFormatter = DateFormatter()
